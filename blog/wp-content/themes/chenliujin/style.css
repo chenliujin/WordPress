@@ -2376,6 +2376,7 @@ body.search-no-results .page-header {
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
+	text-align: center;
 }
 
 .site-info a {
