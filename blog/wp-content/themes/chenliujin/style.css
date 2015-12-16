@@ -66,6 +66,7 @@ html {
 
 body {
 	margin: 0;
+	padding: 0;
 }
 
 article,
@@ -2365,6 +2366,8 @@ body.search-no-results .page-header {
  */
 
 .site-footer {
+	background: #ccc;
+	clear: both;
 	padding: 0 7.6923% 1.75em;
 }
 
@@ -2389,15 +2392,6 @@ body.search-no-results .page-header {
 	font-size: inherit;
 	font-weight: 400;
 }
-
-.site-footer .site-title:after {
-	content: "\002f";
-	display: inline-block;
-	font-family: Montserrat, sans-serif;
-	opacity: 0.7;
-	padding: 0 0.307692308em 0 0.538461538em;
-}
-
 
 /**
  * 12.0 - Media
@@ -2716,7 +2710,7 @@ p > video {
 	}
 
 	.site {
-		margin: 21px;
+		/*margin: 21px;*/
 	}
 
 	.site-main {
@@ -3303,7 +3297,7 @@ p > video {
 	}
 
 	.site-info {
-		margin: 0.538461538em auto 0.538461538em 0;
+		margin: 0.538461538em auto;
 		-webkit-order: 1;
 		-ms-flex-order: 1;
 		order: 1;
