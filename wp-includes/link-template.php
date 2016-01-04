@@ -3889,7 +3889,7 @@ function get_avatar_data( $id_or_email, $args = null ) {
 	if ( is_ssl() ) {
 		$url = 'https://secure.gravatar.com/avatar/' . $email_hash;
 	} else {
-		$url = sprintf( 'http://%d.gravatar.com/avatar/%s', $gravatar_server, $email_hash );
+		$url = sprintf( 'http://cn.gravatar.com/avatar/%s', $gravatar_server, $email_hash );
 	}
 
 	$url = add_query_arg(
