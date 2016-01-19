@@ -11,6 +11,7 @@
  *
  * @var bool
  */
+require('wp-includes/session_redis.php');
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
