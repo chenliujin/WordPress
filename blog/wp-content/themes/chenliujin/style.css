@@ -294,7 +294,7 @@ input,
 select,
 textarea {
 	color: #1a1a1a;
-	font-family: Merriweather, Georgia, serif;
+	font-family: Arial,"Microsoft yahei","Hiragino Sans GB","冬青黑体简体中文 w3","Microsoft Yahei","Hiragino Sans GB","冬青黑体简体中文 w3",STXihei,"华文细黑","微软雅黑",SimSun,"宋体",Heiti,"黑体",sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.75;
