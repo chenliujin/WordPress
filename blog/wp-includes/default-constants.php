@@ -317,9 +317,6 @@ function wp_functionality_constants() {
 	if ( !defined( 'EMPTY_TRASH_DAYS' ) )
 		define( 'EMPTY_TRASH_DAYS', 30 );
 
-	if ( !defined('WP_POST_REVISIONS') )
-		define('WP_POST_REVISIONS', FALSE);
-
 	/**
 	 * @since 3.3.0
 	 */
